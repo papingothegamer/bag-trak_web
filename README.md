@@ -23,4 +23,4 @@ Contact
 For any questions or feedback, please contact:
 
 Author: Toluwanimi Daramola
-Email: your-email@example.com
+Email: toluwanimidaramola8@gmail.com
