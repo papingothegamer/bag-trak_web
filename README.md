@@ -1,4 +1,3 @@
-Bag-Trak Web
 Bag-Trak is a web application that offers a comprehensive solution for tracking baggage in collaboration with major airlines. This project is built with Next.js, Tailwind CSS, and other modern web technologies.
 
 
