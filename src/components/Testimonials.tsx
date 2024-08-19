@@ -22,7 +22,7 @@ const TestimonialsSection: React.FC = () => {
 
   return (
     <section className="py-16 bg-white flex justify-center">
-      <div className="w-11/12 max-w-7xl bg-customBlue px-4 py-8 mx-auto">
+      <div className="w-11/12 max-w-7xl bg-customBlue rounded-t-3xl px-4 py-8 mx-auto">
         <div className="text-center mb-8">
           <h2 className="text-3xl font-galano font-normal text-white">Testimonials</h2>
         </div>

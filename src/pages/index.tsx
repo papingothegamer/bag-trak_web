@@ -6,6 +6,7 @@ import PricingSection from '../components/Pricing';
 import TestimonialsSection from '../components/Testimonials';
 import CTASection from '../components/CTA';
 import Footer from '@/components/Footer';
+import FAQs from "../components/FAQs";
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
       <FeatureSection />
       <PricingSection />
       <TestimonialsSection />
+      <FAQs />
       <CTASection />
       <Footer />
 

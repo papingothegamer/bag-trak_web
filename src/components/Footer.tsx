@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Image from 'next/image';
 
 const Footer: React.FC = () => {
   const [subscribed, setSubscribed] = useState(false);
@@ -14,9 +13,11 @@ const Footer: React.FC = () => {
     <footer className="bg-customBlue text-white py-10">
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center md:items-start">
         
-        {/* Company Logo */}
+        {/* Company Logo (Text) */}
         <div className="order-3 md:order-1 mt-6 md:mt-0 md:w-1/3 flex justify-center md:justify-start">
-          <Image src="/images/Group 1.png" alt="Company Logo" width={150} height={50} />
+          <div className="text-2xl font-galano font-bold">
+            bag-trak
+          </div>
         </div>
         
         {/* Links Section */}
@@ -35,16 +36,16 @@ const Footer: React.FC = () => {
           {/* Social Media Icons */}
           <div className="flex space-x-4 mb-2">
             <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
-              <Image src="/images/tiktok.svg" alt="TikTok" width={32} height={32} />
+              <img src="/images/tiktok.svg" alt="TikTok" width={32} height={32} />
             </a>
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <Image src="/images/twitter-x.svg" alt="Twitter" width={32} height={32} />
+              <img src="/images/twitter-x.svg" alt="Twitter" width={32} height={32} />
             </a>
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-              <Image src="/images/instagram.svg" alt="Instagram" width={32} height={32} />
+              <img src="/images/instagram.svg" alt="Instagram" width={32} height={32} />
             </a>
             <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
-              <Image src="/images/youtube.svg" alt="YouTube" width={32} height={32} />
+              <img src="/images/youtube.svg" alt="YouTube" width={32} height={32} />
             </a>
           </div>
 

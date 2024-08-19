@@ -10,7 +10,7 @@ const FeatureSection = () => {
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="p-6 rounded-lg">
                 <Image
-                  src="/images/app-screenshots/feature1.png"
+                  src="/images/iPhone 15 Pro.png"
                   alt="Track Your Bags"
                   width={200}
                   height={200}
@@ -25,7 +25,7 @@ const FeatureSection = () => {
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="p-6 rounded-lg">
                 <Image
-                  src="/images/app-screenshots/feature2.png"
+                  src="/images/female-staff-interacting-with-passenger_107420-85082.jpg"
                   alt="Seamless Integration"
                   width={200}
                   height={200}
@@ -40,7 +40,7 @@ const FeatureSection = () => {
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="p-6 rounded-lg">
                 <Image
-                  src="/images/app-screenshots/feature3.png"
+                  src="/images/portrait-attractive-bearded-man-earphones_171337-4801.jpg"
                   alt="User-Friendly Interface"
                   width={200}
                   height={200}

@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
-    <div className="relative h-screen bg-cover bg-center" style={{ backgroundImage: "url('/images/hero-image.jpg')" }}>
+    <div className="relative h-screen bg-cover bg-center" style={{ backgroundImage: "url('/images/young-woman-with-luggage-airport-travelling-talking-phone.jpg')" }}>
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="relative container mx-auto px-4 flex items-center justify-center h-full">
         <motion.div

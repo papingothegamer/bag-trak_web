@@ -43,57 +43,65 @@ const HorizontalBanner = () => {
   }, []);
 
   return (
-    <div className="overflow-hidden relative" ref={bannerRef}>
-      {/* Blurred sides */}
-      <div className="absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-white to-transparent pointer-events-none z-10"></div>
-      <div className="absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-white to-transparent pointer-events-none z-10"></div>
+    <div className="my-10">
+      <div className="text-center mb-6">
+        <h2 className="text-2xl  text-customBlue font-bold font-galano">Trusted by Leading Airlines and Companies</h2>
+        <p className="text-gray-600 font-inter mt-4">Bag-Trak is used by these companies to enhance their luggage tracking services.</p>
+      </div>
 
-      {/* Scrolling content */}
-      <div
-        ref={contentRef}
-        className="whitespace-nowrap flex items-center space-x-6"
-        style={{ willChange: 'transform' }}
-      >
-        {/* Logos (Duplicated content for seamless scroll) */}
-        {Array.from({ length: 10 }).map((_, index) => (
-          <React.Fragment key={index}>
-            <Image
-              src="/images/5bbc0dadab82d-removebg-preview.png"
-              alt="Logo 1"
-              width={100}
-              height={50}
-              className="object-contain"
-            />
-            <Image
-              src="/images/british-airways-logo-black-and-white.png"
-              alt="Logo 2"
-              width={100}
-              height={50}
-              className="object-contain"
-            />
-            <Image
-              src="/images/png-clipart-brand-logo-product-design-font-qatar-airways-logo-text-logo-removebg-preview.png"
-              alt="Logo 3"
-              width={100}
-              height={50}
-              className="object-contain"
-            />
-            <Image
-              src="/images/png-clipart-emirates-flydubai-airline-logo-emirates-text-air-canada-removebg-preview.png"
-              alt="Logo 4"
-              width={100}
-              height={50}
-              className="object-contain"
-            />
-            <Image
-              src="/images/png-transparent-abu-dhabi-etihad-airways-united-airlines-flag-carrier-fly-emirates-text-logo-black-thumbnail-removebg-preview.png"
-              alt="Logo 5"
-              width={100}
-              height={50}
-              className="object-contain"
-            />
-          </React.Fragment>
-        ))}
+      {/* Horizontal Banner */}
+      <div className="overflow-hidden relative" ref={bannerRef}>
+        {/* Blurred sides */}
+        <div className="absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-white to-transparent pointer-events-none z-10"></div>
+        <div className="absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-white to-transparent pointer-events-none z-10"></div>
+
+        {/* Scrolling content */}
+        <div
+          ref={contentRef}
+          className="whitespace-nowrap flex items-center space-x-6"
+          style={{ willChange: 'transform' }}
+        >
+          {/* Logos (Duplicated content for seamless scroll) */}
+          {Array.from({ length: 10 }).map((_, index) => (
+            <React.Fragment key={index}>
+              <Image
+                src="/images/5bbc0dadab82d-removebg-preview.png"
+                alt="Logo 1"
+                width={100}
+                height={50}
+                className="object-contain"
+              />
+              <Image
+                src="/images/british-airways-logo-black-and-white.png"
+                alt="Logo 2"
+                width={100}
+                height={50}
+                className="object-contain"
+              />
+              <Image
+                src="/images/png-clipart-brand-logo-product-design-font-qatar-airways-logo-text-logo-removebg-preview.png"
+                alt="Logo 3"
+                width={100}
+                height={50}
+                className="object-contain"
+              />
+              <Image
+                src="/images/png-clipart-emirates-flydubai-airline-logo-emirates-text-air-canada-removebg-preview.png"
+                alt="Logo 4"
+                width={100}
+                height={50}
+                className="object-contain"
+              />
+              <Image
+                src="/images/png-transparent-abu-dhabi-etihad-airways-united-airlines-flag-carrier-fly-emirates-text-logo-black-thumbnail-removebg-preview.png"
+                alt="Logo 5"
+                width={100}
+                height={50}
+                className="object-contain"
+              />
+            </React.Fragment>
+          ))}
+        </div>
       </div>
     </div>
   );
