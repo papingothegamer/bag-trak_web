@@ -16,7 +16,7 @@ const FeatureSection = () => {
                   height={200}
                   className="mx-auto rounded"
                 />
-                <h3 className="text-2xl font-galano text-gray-700 mt-4">Track Your Bags in Real-Time</h3>
+                <h3 className="text-2xl font-galano text-customBlue mt-4">Track Your Bags in Real-Time</h3>
                 <p className="text-gray-600 font-inter mt-2">
                   Get instant updates on the location and status of your luggage, ensuring peace of mind.
                 </p>
@@ -31,7 +31,7 @@ const FeatureSection = () => {
                   height={200}
                   className="mx-auto rounded"
                 />
-                <h3 className="text-2xl font-galano text-gray-700 mt-4">Seamless Integration with Airlines</h3>
+                <h3 className="text-2xl font-galano text-customBlue mt-4">Seamless Integration with Airlines</h3>
                 <p className="text-gray-600 font-inter mt-2">
                   Partnered with major airlines to provide reliable and accurate tracking services.
                 </p>
@@ -46,7 +46,7 @@ const FeatureSection = () => {
                   height={200}
                   className="mx-auto rounded"
                 />
-                <h3 className="text-2xl font-galano text-gray-700 mt-4">User-Friendly Interface</h3>
+                <h3 className="text-2xl font-galano text-customBlue mt-4">User-Friendly Interface</h3>
                 <p className="text-gray-600 font-inter mt-2">
                   Intuitive design that makes it easy to manage your bags and track their status on the go.
                 </p>
