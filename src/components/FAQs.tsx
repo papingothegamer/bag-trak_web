@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaChevronDown } from 'react-icons/fa';
 
-const FAQ = () => {
+const FAQ: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   const toggleFAQ = (index: number) => {
@@ -24,7 +24,7 @@ const FAQ = () => {
   ];
 
   return (
-    <section className="flex flex-col md:flex-row py-16 w-11/12 max-w-7xl mx-auto"> {/* <-- Reduced width */}
+    <section className="flex flex-col md:flex-row py-16 w-11/12 max-w-7xl mx-auto">
       {/* FAQ Header */}
       <div className="md:w-1/3 text-customBlue font-galano text-4xl mb-8 md:mb-0">
         FAQs
@@ -33,25 +33,24 @@ const FAQ = () => {
       {/* FAQ Questions and Answers */}
       <div className="md:w-2/3 space-y-4">
         {faqs.map((faq, index) => (
-          <div key={index} className="cursor-pointer border-b border-gray-300 pb-4"> {/* <-- Added border line */}
+          <div key={index} className="cursor-pointer border-b border-gray-300 pb-4">
             <div 
               onClick={() => toggleFAQ(index)} 
               className="flex justify-between items-center text-black font-inter text-lg">
               {faq.question}
               <span 
-                className={`transform transition-transform duration-500 ${/* <-- Slowed animation */
-                  activeIndex === index ? 'rotate-180' : 'rotate-0'
-                }`}>
+                className={`transform transition-transform duration-500 ${activeIndex === index ? 'rotate-180' : 'rotate-0'}`}>
                 <FaChevronDown className="text-customBlue" />
               </span>
             </div>
 
             {/* Answer Dialog Box */}
-            {activeIndex === index && (
+            <div
+              className={`overflow-hidden transition-max-height duration-500 ease-in-out ${activeIndex === index ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}>
               <div className="mt-2 p-4 bg-customBlue text-white rounded-lg max-w-[80%] md:max-w-[60%] ml-auto">
                 {faq.answer}
               </div>
-            )}
+            </div>
           </div>
         ))}
       </div>

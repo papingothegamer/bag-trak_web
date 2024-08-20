@@ -4,17 +4,17 @@ import TestimonialCard from '../ui/TestimonialCard'; // Adjust the import path a
 const TestimonialsSection: React.FC = () => {
   const testimonials = [
     {
-      avatar: 'https://via.placeholder.com/150', // Replace with actual image URLs
+      avatar: '/images/headshot-cute-girl-with-hair-bun-spending-lunch-break-restaurant-with-wooden-walls_273609-9037.jpg', // Replace with actual image URLs
       username: 'Jane Doe',
       testimonial: 'This product is revolutionary! Finding my luggage has never been easier.',
     },
     {
-      avatar: 'https://via.placeholder.com/150',
+      avatar: '/images/portrait-white-man-isolated_53876-40306.png',
       username: 'John Smith',
       testimonial: 'I love how easy it is to track my bags now. Highly recommended!',
     },
     {
-      avatar: 'https://via.placeholder.com/150',
+      avatar: '/images/tender-young-pretty-girl-smiling-listening-streaming-music-headphones_176420-9702.jpg',
       username: 'Emily Johnson',
       testimonial: 'A must-have for frequent travelers. It saved me so much time!',
     },

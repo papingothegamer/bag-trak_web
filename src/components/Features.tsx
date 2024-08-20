@@ -10,7 +10,7 @@ const FeatureSection = () => {
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="p-6 rounded-lg">
                 <Image
-                  src="/images/iPhone 15 Pro.png"
+                  src="/images/mockuuups-a34bojiukqwhp8cgywbgmd.jpeg"
                   alt="Track Your Bags"
                   width={200}
                   height={200}

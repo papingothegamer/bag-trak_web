@@ -46,7 +46,7 @@ const HorizontalBanner = () => {
     <div className="my-10">
       <div className="text-center mb-6">
         <h2 className="text-2xl  text-customBlue font-bold font-galano">Trusted by Leading Airlines and Companies</h2>
-        <p className="text-gray-600 font-inter mt-4">Bag-Trak is used by these companies to enhance their luggage tracking services.</p>
+        <p className="text-gray-600 font-inter mt-4">Bag-Trak is used by these airlines to enhance their luggage tracking services.</p>
       </div>
 
       {/* Horizontal Banner */}

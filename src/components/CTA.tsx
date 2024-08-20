@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const CTASection: React.FC = () => {
   return (
-    <section className="flex flex-col md:flex-row">
+    <section className="w-4/5 mx-auto flex flex-col md:flex-row mb-16">
       {/* CTA Text Section */}
       <div className="w-full md:w-1/2 order-2 md:order-1 bg-black text-white p-10 flex flex-col justify-center items-start">
         <h2 className="text-4xl font-galano mb-6">Download Our App</h2>
@@ -48,17 +48,17 @@ const CTASection: React.FC = () => {
               alt="App in use 1" 
               className="w-[300px] h-[450px] object-cover mx-auto" 
             />
-            <div className="absolute bottom-4 left-4 bg-black bg-opacity-50 text-white p-2 text-sm font-inter"> {/* <-- Adjusted margin */}
+            <div className="absolute bottom-4 left-4 bg-blue-500 bg-opacity-50 text-white p-2 text-sm font-inter"> {/* Changed background to blue */}
               Easy booking on the go
             </div>
           </div>
           <div className="relative">
             <img 
-              src="/images/close-up-hand-holding-phone_23-2148750408.jpg" 
+              src="/images/mockuuups-iphone-14-pro-on-a-plane-mockup.jpeg" 
               alt="App in use 2" 
               className="w-[300px] h-[450px] object-cover mx-auto" 
             />
-            <div className="absolute bottom-4 left-4 bg-black bg-opacity-50 text-white p-2 text-sm font-inter"> {/* <-- Adjusted margin */}
+            <div className="absolute bottom-4 left-4 bg-blue-500 bg-opacity-50 text-white p-2 text-sm font-inter"> {/* Changed background to blue */}
               Stay updated with real-time notifications
             </div>
           </div>
@@ -68,7 +68,7 @@ const CTASection: React.FC = () => {
               alt="App in use 3" 
               className="w-[300px] h-[450px] object-cover mx-auto" 
             />
-            <div className="absolute bottom-4 left-4 bg-black bg-opacity-50 text-white p-2 text-sm font-inter"> {/* <-- Adjusted margin */}
+            <div className="absolute bottom-4 left-4 bg-blue-500 bg-opacity-50 text-white p-2 text-sm font-inter"> {/* Changed background to blue */}
               Hassle-free travel management
             </div>
           </div>
