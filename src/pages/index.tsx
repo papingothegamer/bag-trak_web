@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
+import About from '../components/About';
 import HorizontalBanner from '../components/HorizontalBanner';
 import FeatureSection from '../components/Features';
 import PricingSection from '../components/Pricing';
@@ -14,6 +15,7 @@ const Home = () => {
     <div>
       <Navbar />
       <Hero />
+      <About/>
       <HorizontalBanner />
       <FeatureSection />
       <PricingSection />

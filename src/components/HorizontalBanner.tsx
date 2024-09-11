@@ -45,8 +45,8 @@ const HorizontalBanner = () => {
   return (
     <div className="my-10">
       <div className="text-center mb-6">
-        <h2 className="text-2xl  text-customBlue font-bold font-galano">Trusted by Leading Airlines and Companies</h2>
-        <p className="text-gray-600 font-inter mt-4">Bag-Trak is used by these airlines to enhance their luggage tracking services.</p>
+        <h2 className="text-2xl  text-customBlue font-bold font-galano">Our Partners</h2>
+        <p className="text-gray-600 font-inter mt-4"> Trusted by leading airlines worldwide </p>
       </div>
 
       {/* Horizontal Banner */}
@@ -86,7 +86,7 @@ const HorizontalBanner = () => {
                 className="object-contain"
               />
               <Image
-                src="/images/png-clipart-emirates-flydubai-airline-logo-emirates-text-air-canada-removebg-preview.png"
+                src="/images/Emirates Black Print.png"
                 alt="Logo 4"
                 width={100}
                 height={50}
